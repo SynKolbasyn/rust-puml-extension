@@ -1,0 +1,11 @@
+id = "puml-preview"
+name = "PUML preview"
+version = "0.0.1"
+schema_version = 1
+authors = ["Andrew Kozmin <syn.kolbasyn.06@gmail.com>"]
+description = "PUML preview extension"
+repository = "https://github.com/SynKolbasyn/rust-puml-extension"
+
+[grammars.plantuml]
+repository = "https://github.com/Szeliga/tree-sitter-plantuml"
+commit = "a3cfbf844d727b077f0070769e6d1c0977cc58f9"

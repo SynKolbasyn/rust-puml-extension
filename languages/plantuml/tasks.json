@@ -1,0 +1,8 @@
+[
+  {
+    "label": "preview",
+    "hide": "on_success",
+    "command": "java",
+    "args": ["-jar", "$PLANTUML_JAR_PATH", "-charset", "utf-8", "-tpng", "-progress", "-o", "$ZED_WORKTREE_ROOT/.uml/", "$ZED_FILE"]
+  }
+]

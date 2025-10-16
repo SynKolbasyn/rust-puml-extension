@@ -1,0 +1,3 @@
+name = "PUML"
+grammar = "plantuml"
+path_suffixes = ["puml"]
